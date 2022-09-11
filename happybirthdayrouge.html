@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=0">
+    <title>Happy Birthday, Rouge!</title>
+    <meta name="description" content="This is the personal portfolio of Miguel Joie Sevilla Polines.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/defaults.css">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" type="image/jpg" href="images/Logo-Violet -1 Outlined.png">
+
+    <style>
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+        </style>
+
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="header-links-3" onclick="clickNav()">Curriculum Vitae</a>
+        <a class="header-links-3" onclick="clickNav()">Archives</a>
+        <a class="header-links-3" onclick="clickNav()">Contact</a>
+        <a class="header-links-3" onclick="clickNav()">About</a>
+        <a class="header-links-2" onclick="clickNav()">Subscribe</a>
+        
+        <p class="header-sidenav-text">Miguel Joie S. Polines<br>Copyright 2021</p>
+      </div>
+
+<header id="header">
+    <div id="header-wrapper">
+    <a onclick="clickNav()"><img src="images/Logo-Dark 2.png" class="header-logo">
+    <p class="header-name">MIGUEL<br>JOIE</p></a>
+
+    <div id="header-menus">
+        <a class="header-links" onclick="clickNav()">Curriculum Vitae</a>
+        <a class="header-links" onclick="clickNav()">Archives</a>
+        <a class="header-links" onclick="clickNav()">Contact</a>
+        <a class="header-links" onclick="clickNav()">About</a>
+        <a class="header-links-1" onclick="clickNav()">Subscribe</a>
+
+        
+    </div>
+
+    <span style="font-size:30px;cursor:pointer;" class="sidenav-button" onclick="openNav()">&#9776;</span>
+    
+</div>
+</header>
+
+<div id="gradient-background">
+</div>
+
+<div id="wrapper">
+<div class="wrapper">
+    <p class="banner-1">Happy Birthday,
+    <span
+    class="txt-rotate"
+    data-period="2000"
+    data-rotate='[ "Weather!", "Roozh!", "Rouge!", "from Mirai.", "from Polayns."]'></span>
+    </p>
+    <p class="banner-2" style="font-size: 18px;">
+        Happy Birthday, Tabibito-san! Happy 20th birthday. I wish you the best! Always here for you if you need someone to talk to! Goodluck sa studies, sa personal life and thank you for playing with me! We've known each other for like... more than 10 years, and I would like to say that I am so proud of you!
+    </p>
+    <img src="images/ROUGE.png" class="banner-photo">
+</div>
+</div>
+
+<center><h1 style="padding: 10px;">OUR BEST GENSHIN PICTURES</h1>
+</center>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 20</div>
+      <img src="images/genshin/20220718164042.png" style="width:100%">
+      <div class="text">Our first co-op game!</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 20</div>
+      <img src="images/genshin/20220718220341.png" style="width:100%">
+      <div class="text">Inazuma</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 20</div>
+      <img src="images/genshin/20220718225323.png" style="width:100%">
+      <div class="text">Your first teapot tour</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 20</div>
+        <img src="images/genshin/20220720235657.png" style="width:100%">
+        <div class="text">Dragonspine's highest point</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 20</div>
+        <img src="images/genshin/20220721012046.png" style="width:100%">
+        <div class="text">Japan yarnnn</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 20</div>
+        <img src="images/genshin/20220721013123.png" style="width:100%">
+        <div class="text">Lumine cutie</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 20</div>
+        <img src="images/genshin/20220721014100.png" style="width:100%">
+        <div class="text">Lumine cutie (2)</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 20</div>
+        <img src="images/genshin/20220721015228.png" style="width:100%">
+        <div class="text">Ayaka cutie</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">9 / 20</div>
+        <img src="images/genshin/20220723015535.png" style="width:100%">
+        <div class="text">Remember your twitter cover... ehe</div>
+      </div>
+  
+      <div class="mySlides fade">
+          <div class="numbertext">10 / 20</div>
+          <img src="images/genshin/20220723015744.png" style="width:100%">
+          <div class="text">Ayaka cutie (2)</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">11 / 20</div>
+          <img src="images/genshin/20220730222437.png" style="width:100%">
+          <div class="text">Golden Apple Archipelago</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">12 / 20</div>
+          <img src="images/genshin/20220730230029.png" style="width:100%">
+          <div class="text">Cat Island haha!!</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">13 / 20</div>
+            <img src="images/genshin/20220805220000.png" style="width:100%">
+            <div class="text">Friendly hilis???</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">14 / 20</div>
+            <img src="images/genshin/20220817221656.png" style="width:100%">
+            <div class="text">GAA (2)</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">15 / 20</div>
+            <img src="images/genshin/20220817223342.png" style="width:100%">
+            <div class="text">With Fischl</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">16 / 20</div>
+            <img src="images/genshin/20220818235248.png" style="width:100%">
+            <div class="text">Daming takes! HAHAHA!</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">17 / 20</div>
+            <img src="images/genshin/20220818235340.png" style="width:100%">
+            <div class="text">Heart Island</div>
+          </div>
+  
+          <div class="mySlides fade">
+              <div class="numbertext">18 / 20</div>
+              <img src="images/genshin/20220819001746.png" style="width:100%">
+              <div class="text">Sunset!</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">19 / 20</div>
+              <img src="images/genshin/20220831212750.png" style="width:100%">
+              <div class="text">Sumeru!!!</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">20 / 20</div>
+              <img src="images/genshin/Mirai_Weather.jpg" style="width:100%">
+              <div class="text">The best!</div>
+            </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+
+
+<footer>
+    <p>Created by Miguel Joie S. Polines | © 2022</p>
+    <a href="https://wa.me/+639369863168?text=urlencodedtext"><img src="images/whatsapp.png" title="Contact me using Whatsapp!" class="footer-logo"></a>
+    <a href="tel:09369863168"><img src="images/telephone.png" title="Call me using phone!" class="footer-logo"> </a>
+    <a href="https://www.instagram.com/Immigueljoie08"><img src="images/instagram.png" title="Contact me using Instagram!" class="footer-logo"></a>
+</footer>
+
+<script src="js/typing.js"></script>
+<script src="js/sidenav.js"></script>
+<script>
+function clickNav() {
+  alert("Currently, this option is unavailable.");
+}
+</script>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+</body>
+</html>

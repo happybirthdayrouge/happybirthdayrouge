@@ -1,0 +1,40 @@
+:root{
+    --font-color: #332851;
+    --secondary: #CA3074;
+    --tertiary: #f6c667;
+}
+
+@font-face {
+    font-family: dosis;
+    src: url(../fonts/dosis.ttf);
+}
+
+::-moz-selection { /*Firefox*/
+    color: white;
+    background: rgb(122, 24, 122);
+  }
+  
+::selection {
+    color: white;
+    background: rgb(122, 24, 122);
+  }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--secondary); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--tertiary);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ac3aee; 
+  }
